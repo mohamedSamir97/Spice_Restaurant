@@ -46,13 +46,13 @@ namespace Spice.Data
 
             _userManager.CreateAsync(new ApplicationUser
             {
-                UserName="admin@gmail.com",
-                Email="admin@gmail.com",
+                UserName="moosamir.97@gmail.com",
+                Email= "moosamir.97@gmail.com",
                 Name="Admin",
                 EmailConfirmed=true,
                 PhoneNumber= "01157727880"
             },"Aa@123456").GetAwaiter().GetResult();
-            IdentityUser user = await _db.Users.FirstOrDefaultAsync(u => u.Email == "admin@gmail.com");
+            IdentityUser user = await _db.Users.FirstOrDefaultAsync(u => u.Email == "moosamir.97@gmail.com");
 
             await _userManager.AddToRoleAsync(user, SD.ManagerUser);
         }

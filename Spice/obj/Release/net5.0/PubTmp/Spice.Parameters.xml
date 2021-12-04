@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Spice20211204105806" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\programming\ courses\\1\ Projects\\Spice\ restaurant\\Spice\\Spice\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="Spice.Data.ApplicationDbContext" description="" value="Data Source=tcp:spice2021dbserver.database.windows.net,1433;Initial Catalog=Spice_db;User Id=adminuser@spice2021dbserver;Password=Aa@123456" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^D:\\programming\ courses\\1\ Projects\\Spice\ restaurant\\Spice\\Spice\\obj\\Release\\net5\.0\\PubTmp\\EFSQLScripts\\Spice\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
