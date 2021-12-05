@@ -65,5 +65,41 @@ namespace Spice.Areas.Admin.Controllers
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
+
+        //GET for delete
+
+        public async Task<IActionResult> Delete(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var applicationUser = await _db.ApplicationUser.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (applicationUser == null)
+            {
+                return NotFound();
+            }
+            return View(applicationUser);
+        }
+
+        //Post for Delete
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(string id)
+        {
+            var applicationUser = await _db.ApplicationUser.FirstOrDefaultAsync(m => m.Id == id);
+
+            if (applicationUser == null)
+            {
+                return View();
+            }
+            _db.ApplicationUser.Remove(applicationUser);
+            await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+
+
+        }
+
     }
 }

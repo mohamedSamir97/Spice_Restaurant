@@ -17,6 +17,9 @@ D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\4.jpg
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\5.jpg
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\6.webp
+D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\7.webp
+D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\8.webp
+D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\9.webp
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\cancelled.png
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\completed.png
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\PubTmp\Out\wwwroot\images\default_food.png

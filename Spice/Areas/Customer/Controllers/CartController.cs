@@ -52,7 +52,15 @@ namespace Spice.Areas.Customer.Controllers
             {
                 list.MenuItem = await _db.MenuItem.FirstOrDefaultAsync(m => m.Id == list.MenuItemId);
                 detailCart.OrderHeader.OrderTotal = detailCart.OrderHeader.OrderTotal + (list.MenuItem.Price * list.Count);
-                list.MenuItem.Description = SD.ConvertToRawHtml(list.MenuItem.Description);
+                if (list.MenuItem.Description!=null)
+                {
+                    list.MenuItem.Description = SD.ConvertToRawHtml(list.MenuItem.Description);
+
+                }
+                else
+                {
+                    list.MenuItem.Description = " ".ToString();
+                }
 
                 if (list.MenuItem.Description.Length > 100)
                 {

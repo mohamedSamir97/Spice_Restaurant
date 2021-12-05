@@ -524,3 +524,4 @@ D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\ref\Spice.dll
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\Spice.pdb
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\Spice.genruntimeconfig.cache
+D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Release\net5.0\Razor\Areas\Admin\Views\User\Delete.cshtml.g.cs

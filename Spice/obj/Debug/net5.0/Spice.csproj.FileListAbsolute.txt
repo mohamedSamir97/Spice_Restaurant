@@ -524,3 +524,4 @@ D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\bin\Debug\net5.0\
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Debug\net5.0\Razor\Views\Shared\Components\UserName\Default.cshtml.g.cs
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\bin\Debug\net5.0\SendGrid.dll
 D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\bin\Debug\net5.0\StarkbankEcdsa.dll
+D:\programming courses\1 Projects\Spice restaurant\Spice\Spice\obj\Debug\net5.0\Razor\Areas\Admin\Views\User\Delete.cshtml.g.cs
